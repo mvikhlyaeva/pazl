@@ -1,0 +1,43 @@
+.partOfPazl {
+  float:left;
+  overflow:hidden;
+  //border:0.5px solid #ccc;
+  width: 49%;
+  height: 465px;
+}
+.pazl{
+	width: 1210px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.partOfPazl1 {	
+}
+.partOfPazl2 {
+margin:0 0 0 -592px;
+}
+.partOfPazl3 {
+ margin: -465px 0 0 0;
+}
+.partOfPazl4 {
+ margin: -465px 0 0 -592px;
+ }
+
+ p{
+ 	background-color: #eee;
+ 	padding: 3em;
+ }
+/*
+ .one{
+ 	order: 1;
+ }
+.two{
+	order: 4;
+}
+ .three{
+ 	order: 2;
+ }
+.four{
+	order: 3;
+}
+*/
