@@ -2,42 +2,118 @@
   float:left;
   overflow:hidden;
   //border:0.5px solid #ccc;
-  width: 49%;
-  height: 465px;
+  width: 25%;
+  height: 25%;
+  box-sizing: border-box;
 }
 .pazl{
-	width: 1210px;
+	width: 50%;
+	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .partOfPazl1 {	
+	width: 400%;
 }
 .partOfPazl2 {
-margin:0 0 0 -592px;
+width: 400%;
+height: 400%;
+margin:0 0 0 -100%;
 }
 .partOfPazl3 {
- margin: -465px 0 0 0;
+ width: 400%;
+height: 400%;
+margin:0 0 0 -200%;
 }
 .partOfPazl4 {
- margin: -465px 0 0 -592px;
+width: 400%;
+height: 400%;
+margin:0 0 0 -300%;
+ }
+ .partOfPazl5 {	
+width: 400%;
+height: 400%;
+margin:-72.265625% 0 0 0;
+}
+.partOfPazl6 {
+width: 400%;
+height: 400%;
+margin:-72.265625% 0 0 -100%;
+}
+.partOfPazl7 {
+width: 400%;
+height: 400%;
+margin:-72.265625% 0 0 -200%;
+}
+.partOfPazl8 {
+width: 400%;
+height: 400%;
+margin:-72.265625% 0 0 -300%;
+ }
+ .partOfPazl9 {	
+width: 400%;
+height: 400%;
+margin:-144.53125% 0 0 0;
+}
+.partOfPazl10 {
+width: 400%;
+height: 400%;
+margin:-144.53125% 0 0 -100%;
+}
+.partOfPazl11 {
+width: 400%;
+height: 400%;
+margin:-144.53125% 0 0 -200%;
+}
+.partOfPazl12 {
+width: 400%;
+height: 400%;
+margin:-144.53125% 0 0 -300%;
+ }
+ .partOfPazl13 {	
+width: 400%;
+height: 400%;
+margin:-216.796875% 0 0 0;
+}
+.partOfPazl14 {
+width: 400%;
+height: 400%;
+margin:-216.796875% 0 0 -100%;
+}
+.partOfPazl15 {
+width: 400%;
+height: 400%;
+margin:-216.796875% 0 0 -200%;
+}
+.partOfPazl16 {
+width: 400%;
+height: 400%;
+margin:-216.796875% 0 0 -300%;
  }
 
  p{
- 	background-color: #eee;
- 	padding: 3em;
+ 	background-color: /*#f2f567;*/#48c7b0f7;
+ 	padding: 1em 2em;
+ 	font-family: 'Comfortaa', cursive;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	display: flex;
+ 	margin:10px auto;
+ 	border-radius: 30px;
  }
-/*
- .one{
- 	order: 1;
+ .button{
+ 	display: flex;
+ 	margin: auto;
+ 	//border-radius: 10px;
+ 	//font-size: 50px;
  }
-.two{
-	order: 4;
+
+@media (max-width: 768px) {
+	.pazl{
+	width: 90%;
+	margin:100px auto;
+	display: flex;
+	flex-wrap: wrap;
 }
- .three{
- 	order: 2;
- }
-.four{
-	order: 3;
 }
-*/
