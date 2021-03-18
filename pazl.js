@@ -29,6 +29,7 @@ b.onclick = function(){
 for(let i=0;i<16;i++){
 	pazl[i].style.order=numberOfOrder[i];
 }	
+$('.q').detach();
  }
 
 var first=true;
@@ -53,7 +54,7 @@ for(let i=0;i<16;i++)
         	console.log(i, pazl[i].style.order);
         	if (i==4) continue;
         	if(pazl[i].style.order!=i) break;
-        	if(i==14) $('.praise').append('<p>Поздравляю, ты молодец!</p>');
+        	if(i==14) $('.praise').append('<p class="q">Поздравляю, ты молодец!</p>');
 
         }
         //pazl[k].style.cssText = "border: none;";
