@@ -1,3 +1,8 @@
+
+.changeNuber{
+	position: absolute;
+}
+
 .partOfPazl {
   float:left;
   overflow:hidden;
@@ -12,85 +17,6 @@
 	display: flex;
 	flex-wrap: wrap;
 }
-
-.partOfPazl1 {	
-	width: 400%;
-}
-.partOfPazl2 {
-width: 400%;
-height: 400%;
-margin:0 0 0 -100%;
-}
-.partOfPazl3 {
- width: 400%;
-height: 400%;
-margin:0 0 0 -200%;
-}
-.partOfPazl4 {
-width: 400%;
-height: 400%;
-margin:0 0 0 -300%;
- }
- .partOfPazl5 {	
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 0;
-}
-.partOfPazl6 {
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 -100%;
-}
-.partOfPazl7 {
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 -200%;
-}
-.partOfPazl8 {
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 -300%;
- }
- .partOfPazl9 {	
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 0;
-}
-.partOfPazl10 {
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 -100%;
-}
-.partOfPazl11 {
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 -200%;
-}
-.partOfPazl12 {
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 -300%;
- }
- .partOfPazl13 {	
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 0;
-}
-.partOfPazl14 {
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 -100%;
-}
-.partOfPazl15 {
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 -200%;
-}
-.partOfPazl16 {
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 -300%;
- }
 
  p{
  	background-color: /*#f2f567;*/#48c7b0f7;
