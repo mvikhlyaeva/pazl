@@ -1,96 +1,42 @@
+
+.changeNumber{
+	position: absolute;
+	left: 15%;
+}
+
+
+.divChooseImg{
+	position: absolute;
+	right: 10%;
+	width: 160px;
+	//text-align: center;
+}
+
+
+.chooseImg{
+	display: flex;
+	margin:5px auto;
+	width: 100px;
+}
+
 .partOfPazl {
   float:left;
   overflow:hidden;
-  //border:0.5px solid #ccc;
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
+}
+
+.partOfPazlImg{
+	width: 100%;
 }
 .pazl{
 	width: 50%;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	
 }
-
-.partOfPazl1 {	
-	width: 400%;
-}
-.partOfPazl2 {
-width: 400%;
-height: 400%;
-margin:0 0 0 -100%;
-}
-.partOfPazl3 {
- width: 400%;
-height: 400%;
-margin:0 0 0 -200%;
-}
-.partOfPazl4 {
-width: 400%;
-height: 400%;
-margin:0 0 0 -300%;
- }
- .partOfPazl5 {	
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 0;
-}
-.partOfPazl6 {
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 -100%;
-}
-.partOfPazl7 {
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 -200%;
-}
-.partOfPazl8 {
-width: 400%;
-height: 400%;
-margin:-72.265625% 0 0 -300%;
- }
- .partOfPazl9 {	
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 0;
-}
-.partOfPazl10 {
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 -100%;
-}
-.partOfPazl11 {
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 -200%;
-}
-.partOfPazl12 {
-width: 400%;
-height: 400%;
-margin:-144.53125% 0 0 -300%;
- }
- .partOfPazl13 {	
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 0;
-}
-.partOfPazl14 {
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 -100%;
-}
-.partOfPazl15 {
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 -200%;
-}
-.partOfPazl16 {
-width: 400%;
-height: 400%;
-margin:-216.796875% 0 0 -300%;
- }
 
  p{
  	background-color: /*#f2f567;*/#48c7b0f7;
@@ -112,8 +58,44 @@ margin:-216.796875% 0 0 -300%;
 @media (max-width: 768px) {
 	.pazl{
 	width: 90%;
-	margin:100px auto;
+	margin:10% auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+
 }
+	.changeNumber{
+		position: static;
+
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		/*//font-size: 20px; 
+		top: 50px;
+		right: 5%;
+		left: 5%;*/
+	}
+	.radioNumber{
+		width: 25px;
+		//height: 30px;
+		margin: auto;
+	}
+	input{
+		margin: 0 0 0 -8px;
+	}
+
+	.chooseImgParent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.divChooseImg{
+	position: absolute;
+	right: 5%;
+	top: 65%;
+	width: 90%;
+	//text-align: center;
+}
+	.chooseImg{
+	width: 80px;
+}
+
 }
