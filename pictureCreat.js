@@ -1,42 +1,45 @@
+var numberOfPart=1;
+var img;
+var imgsrc = 'https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg';
+
+var chooseImg=document.querySelectorAll(".chooseImg");
+for(let i=0;i<chooseImg.length;i++){
+	chooseImg[i].onclick = function() {
+		imgsrc = chooseImg[i].src;
+		console.log('1');
+		$('.partOfPazl').detach();	
+		$('.pazl').append('<div class="partOfPazl"><img class="partOfPazlImg" src="'+ imgsrc + '"></div>');
+	}
+}
+
+
+for(let i=0;i<numberOfPart*numberOfPart; i++){
+	$('.pazl').append('<div class="partOfPazl"><img class="partOfPazlImg" src="https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg"></div>');
+}
+
+img = document.querySelector(".partOfPazlImg");
 
 $(function(){
-  $('.pazl').height($('.pazl').width()*0.72265625); // Соотношение 4 к 3
+  $('.pazl').height($('.pazl').width()*img.naturalHeight/img.naturalWidth);
+
 
   $(window).resize(function(){
-    $('.pazl').height($('.pazl').width()*0.72265625);
+    $('.pazl').height($('.pazl').width()*img.naturalHeight/img.naturalWidth);
   });
 });
 
 
-var numberOfPart=1;
 
+// var partOfPazl = document.querySelectorAll('.partOfPazl');
+// for(let i=0;i<partOfPazl.length;i++){
+// partOfPazl[i].style.width = 100/numberOfPart +'%';
+// partOfPazl[i].style.height = 100/numberOfPart +'%';
+//}
 
-for(let i=0;i<numberOfPart*numberOfPart; i++){
-	$('.pazl').append('<div class="partOfPazl"><img class="partOfPazlImg" src="https://cdn.pixabay.com/photo/2021/02/08/16/03/dinosaur-5995333_1280.png"></div>');
-}
-
-var partOfPazl = document.querySelectorAll('.partOfPazl');
-for(let i=0;i<partOfPazl.length;i++){
-partOfPazl[i].style.width = 100/numberOfPart +'%';
-partOfPazl[i].style.height = 100/numberOfPart +'%';
-}
-
- var partOfPazlImg  = document.querySelectorAll('.partOfPazlImg');
- for(let i=0;i<partOfPazlImg.length;i++){
-   partOfPazlImg[i].style.margin = (Math.floor(i/numberOfPart)*-72.265625 +'% 0 0 '+ ((i%numberOfPart)*-100) +'%');
-     partOfPazlImg[i].style.width = numberOfPart*100 +'%';
-}
-
-// var numberOfOrder = [];
-// for(let i=0;i<16;i++){
-// 	numberOfOrder[i]=i;
+//  var partOfPazlImg  = document.querySelectorAll('.partOfPazlImg');
+//  for(let i=0;i<partOfPazlImg.length;i++){
+//    partOfPazlImg[i].style.margin = (Math.floor(i/numberOfPart)*-72.265625 +'% 0 0 '+ ((i%numberOfPart)*-100) +'%');
+//      partOfPazlImg[i].style.width = numberOfPart*100 +'%';
 // }
-// for(let i=15;i>0;i--){
-//    let x=Math.floor(Math.random() * i )  
-//    	let t=numberOfOrder[i];
-//    	numberOfOrder[i]=numberOfOrder[x];
-//    	numberOfOrder[x]=t;
-// }
-// for(let i=0;i<16;i++){
-// console.log(numberOfOrder[i]);
-// }
+
+console.log(numberOfPart);
