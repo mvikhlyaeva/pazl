@@ -1,21 +1,41 @@
 
-.changeNuber{
+.changeNumber{
 	position: absolute;
+	left: 15%;
+}
+
+
+.divChooseImg{
+	position: absolute;
+	right: 10%;
+	width: 160px;
+	//text-align: center;
+}
+
+
+.chooseImg{
+	display: flex;
+	margin:5px auto;
+	width: 100px;
 }
 
 .partOfPazl {
   float:left;
   overflow:hidden;
-  //border:0.5px solid #ccc;
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
+}
+
+.partOfPazlImg{
+	width: 100%;
 }
 .pazl{
 	width: 50%;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
  p{
@@ -38,8 +58,44 @@
 @media (max-width: 768px) {
 	.pazl{
 	width: 90%;
-	margin:100px auto;
+	margin:10% auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+
 }
+	.changeNumber{
+		position: static;
+
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		/*//font-size: 20px; 
+		top: 50px;
+		right: 5%;
+		left: 5%;*/
+	}
+	.radioNumber{
+		width: 25px;
+		//height: 30px;
+		margin: auto;
+	}
+	input{
+		margin: 0 0 0 -8px;
+	}
+
+	.chooseImgParent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.divChooseImg{
+	position: absolute;
+	right: 5%;
+	top: 65%;
+	width: 90%;
+	//text-align: center;
+}
+	.chooseImg{
+	width: 80px;
+}
+
 }
