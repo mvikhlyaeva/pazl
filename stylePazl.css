@@ -47,6 +47,7 @@
  	display: flex;
  	margin:10px auto;
  	border-radius: 30px;
+ 	justify-content: center;
  }
  .button{
  	display: flex;
@@ -98,5 +99,25 @@
 	width: 80px;
 	height: 100%;
 }
+p{
+		font-size: 12px;
+		
+	}
+
+
+
+}
+@media (min-aspect-ratio: 375/565) {
+
+	.pazl{
+	
+	margin:7% auto 0 auto;
+	
+}	
+	p{
+		font-size: 11px;
+		text-align: center;
+		//padding: 0.5em 1em;
+	}
 
 }
