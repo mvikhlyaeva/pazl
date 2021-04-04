@@ -90,7 +90,7 @@
 	.divChooseImg{
 	position: absolute;
 	right: 5%;
-	top: 65%;
+	bottom: 5%;
 	width: 90%;
 	//text-align: center;
 }
