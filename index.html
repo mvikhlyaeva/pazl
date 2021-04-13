@@ -1,60 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link
-		href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Mukta:wght@500&family=Noto+Sans+TC:wght@400;700&display=swap"
-		rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Mukta:wght@500&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="stylePazl.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pazl</title>
 </head>
-
 <body>
 
 	<div class="praise">
-
-	</div>
+		
+	</div>	
 
 	<div class="changeNumber">
-		<p class="radioNumber"><input name="number" type="radio" value="2"> 2x2</p>
-		<p class="radioNumber"><input name="number" type="radio" value="3"> 3x3 </p>
-		<p class="radioNumber"><input name="number" type="radio" value="4" checked> 4x4 </p>
-		<p class="radioNumber"><input name="number" type="radio" value="5"> 5x5</p>
-		<p class="radioNumber"><input name="number" type="radio" value="6"> 6x6</p>
+		<p class="radioNumber"><input  name="number" type="radio" value="2"> 2x2</p>
+   		<p class="radioNumber"><input  name="number" type="radio" value="3"> 3x3 </p>
+    	<p class="radioNumber"><input  name="number" type="radio" value="4" checked> 4x4 </p>
+    	<p class="radioNumber"><input  name="number" type="radio" value="5"> 5x5</p>
+   		<p class="radioNumber"><input name="number" type="radio" value="6"> 6x6</p>
+	</div>	
+	
+
+	<div class="divChooseImg">	
+		 <p class chooseImgText> Выберите изображение </p>
+		 <div class="chooseImgParent">
+		        <img class="chooseImg"src="https://cdn.pixabay.com/photo/2020/12/13/16/21/stork-5828727_1280.jpg">
+		    
+		        <img class="chooseImg" src="https://cdn.pixabay.com/photo/2021/02/05/21/10/church-5985941_1280.jpg">
+
+		        <img class="chooseImg"src="https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg">
+		    
+		        <img class="chooseImg" src="https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_1280.jpg"> 
+		 </div>        
+	</div>   
+
+	<div class="pazl">   
+		
 	</div>
+	
+<div class="button">
+	<p class="buttonStart"> Начать </p>
+</div>
 
-
-	<div class="divChooseImg">
-		<p class chooseImgText> Выберите изображение </p>
-		<div class="chooseImgParent">
-			<img class="chooseImg" src="https://cdn.pixabay.com/photo/2020/12/13/16/21/stork-5828727_1280.jpg">
-
-			<img class="chooseImg" src="https://cdn.pixabay.com/photo/2021/02/05/21/10/church-5985941_1280.jpg">
-
-			<img class="chooseImg" src="https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg">
-
-			<img class="chooseImg" src="https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_1280.jpg">
-		</div>
-	</div>
-
-	<div class="pazl">
-
-	</div>
-
-	<div class="button">
-		<p class="buttonStart"> Начать </p>
-	</div>
-
-	<div class="scripts">
-		<script src="jquery-3.6.0.min.js"></script>
-		<script src="pictureCreat.js"></script>
-		<script src="pazl.js"></script>
-		<!-- <script class="a" src="changePart.js"></script> -->
-	</div>
-
+<div class = "scripts">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="pictureCreat.js"></script>
+	<script src="pazl.js"></script>
+	<!-- <script class="a" src="changePart.js"></script> -->
+</div>	
+	
 </body>
-
 </html>
